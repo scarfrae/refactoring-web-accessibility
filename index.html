@@ -21,11 +21,10 @@
 
 <body>
 
-<!--
+<!--changing to semantic html-->
     <header>
-        <h1>Horiseon</h1>
-        <section>
-            List of items
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -37,17 +36,19 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </section>
+        </nav>
         
     </header>
 
--->
-    <!-- change div to header, etc. -->
+
+<!--
+
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Horiseon</h1>
    
         <div>
-            <!--List of items-->
+        
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -61,38 +62,40 @@
             </ul>
         </div>
     </div>
+- -->
 
-
-    <div class="hero"></div>
-    <div class="content">
-        <div id="search-engine-optimization" class="search-engine-optimization">
+    <section class="hero"></section>
+    <!--<div class="hero"></div>-->
+    <main>
+    <!--<div class="content">-->
+        <article id="search-engine-optimization" class="search-engine-optimization">
             <!-- Search engine optimization tag -->
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 <!--Simplified language potentially-->
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        </article>
+        <article id="online-reputation-management" class="online-reputation-management">
             <!-- Online Reputation Management tag -->
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Onine Reputation Management"/>
             <h2>Online Reputation Management</h2>
             <p>
                 <!--Simplified language potentially-->
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        </article>
+        <article id="social-media-marketing" class="social-media-marketing">
             <!-- Social Media Marketing tag -->
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing"/>
             <h2>Social Media Marketing</h2>
             <p> 
                 <!--Simplified language potentially-->
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
+        </article>
+    </main>
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -119,12 +122,19 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <!--changed div class footer to footer (semantic)-->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+    <!-- <div class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </div> -->
 </body>
 
 </html>
